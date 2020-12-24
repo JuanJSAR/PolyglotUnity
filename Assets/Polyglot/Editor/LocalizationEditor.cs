@@ -259,6 +259,7 @@ namespace Polyglot
             if(GUILayout.Button("Download"))
             {
                 download();
+                GUIUtility.ExitGUI();
             }
             EditorGUILayout.EndHorizontal();
             EditorGUI.EndDisabledGroup();
